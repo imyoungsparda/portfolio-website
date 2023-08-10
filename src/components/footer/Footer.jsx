@@ -30,16 +30,13 @@ function Footer() {
       </ul>
 
       <div className="footer__socials">
-        <a href="facebook">
-          <AiOutlineFacebook />
-        </a>
-        <a href="facebook">
+        <a href="https://www.instagram.com/ayush_raj_/">
           <AiOutlineInstagram />
         </a>
-        <a href="facebook">
+        <a href="https://twitter.com/imyoungSparda">
           <AiOutlineTwitter />
         </a>
-        <a href="facebook">
+        <a href="https://www.linkedin.com/in/theayushraj/">
           <AiOutlineLinkedin />
         </a>
       </div>

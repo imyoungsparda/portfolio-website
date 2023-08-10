@@ -1,19 +1,20 @@
 .skill__container {
   display: grid;
   grid-template-columns: 1fr;
+  margin: 0 auto;
 }
-.skill__container .skill__frontend {
+.skill__container .skill__content {
   background: var(--color-bg-variant);
-  padding: 2.4rem 5rem;
   border-radius: 2rem;
   border: 1px solid transparent;
 }
-.skill__container .skill__frontend:hover {
+.skill__container .skill__content:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
   cursor: default;
 }
 .skill__content {
+  padding: 2.4rem 7rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
@@ -43,18 +44,12 @@
 
 /*------------- MEDIA QUERIES (SMALL DEVICES)-------------------*/
 @media (max-width: 600px) {
-  .about__me {
-    width: 65%;
-    margin: 0 auto 3rem;
-  }
-  .about__cards {
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-  }
-  .about__content {
-    text-align: center;
-  }
-  .about__content p {
-    margin: 1.5rem 0;
+  .skill__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
   }
 }
