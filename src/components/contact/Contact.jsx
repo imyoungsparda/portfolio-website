@@ -47,8 +47,7 @@ function Contact() {
           <article className="contact__option">
             <BsLinkedin className="contact__option-icon" />
             <h4>LinkedIn</h4>
-            {/* <h5>linkedin.com/in/theayushraj/</h5> */}
-            <a href="mailto:rajayush1310@gmail.com">Let's Connect Here</a>
+            <a href="linkedin.com/in/theayushraj/">Let's Connect Here</a>
           </article>
           <article className="contact__option">
             <BsDiscord className="contact__option-icon" />
